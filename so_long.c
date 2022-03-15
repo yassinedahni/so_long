@@ -6,7 +6,7 @@
 /*   By: ydahni <ydahni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/13 21:20:35 by ydahni            #+#    #+#             */
-/*   Updated: 2022/03/15 05:42:35 by ydahni           ###   ########.fr       */
+/*   Updated: 2022/03/15 05:49:45 by ydahni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,4 +50,5 @@ int	main(int ac, char **av)
 		check_all(m.map);
 		so_long_paint(m);
 	}
+	return (0);
 }

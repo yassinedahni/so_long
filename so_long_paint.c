@@ -6,7 +6,7 @@
 /*   By: ydahni <ydahni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 20:19:26 by ydahni            #+#    #+#             */
-/*   Updated: 2022/03/15 05:37:58 by ydahni           ###   ########.fr       */
+/*   Updated: 2022/03/15 05:52:04 by ydahni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ void	so_long_paint(t_call_2 m)
 	while (m.map[x])
 		x++;
 	m.mlx = mlx_init();
-	m.mlx_wind = mlx_new_window(m.mlx, i * 50, x * 50, "mlx");
+	m.mlx_wind = mlx_new_window(m.mlx, i * 50, x * 50, "so_long");
 	m = so_long_paint_1(m);
 	mlx_key_hook(m.mlx_wind, key_hook, &m);
 	mlx_hook(m.mlx_wind, 17, 0L, exit_mouse, &m);
